@@ -1,0 +1,49 @@
+<!-- templates/index.html -->
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/main.073c9b0a.css'%}">
+    <link rel="stylesheet" href="{% static 'css/main.073c9b0a.css.map'%}">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+    <title>Text Display Window</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <style>
+        p {
+          color: red;
+          text-align: center;
+        } 
+        </style>
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Text Display Window</h1>
+        <pre><h2>What is a display</h2></pre>
+        <div class="text-panel">
+            <p id="text-display">In computing, a display is a device with a screen that shows a rendered electronic image made up of pixels that are illuminated in a way that distinguishes text and graphic elements. Pixels are tiny areas of illumination -- bright dots of light -- that can number in the millions on a single display. Today, most displays use colored pixels.</p>
+        </div>
+        <div class="button-panel"><form action="/action_page.php">
+             <button id="next-button">Next</button>
+        </form>
+        </div>
+    </div>
+    <script src="{% static 'js/main.js' %}"></script>
+{{post}}
+</body>
+
+    <script src="{%static 'js/787.5480e000.chunk.js'%}"></script>
+    <script src="{%static 'js/787.5480e000.chunk.js.map'%}"></script>
+    <script src="{%static 'js/main.c27a1b14.js'%}"></script>
+    <script src="{%static 'js/main.c27a1b14.js.LICENSE.txt'%}"></script>
+    <script src="{%static 'js/main.c27a1b14.js.map'%}"></script>
+
+</html>
